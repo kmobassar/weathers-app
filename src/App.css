@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content:start ;
+  height: 600px;
+  width: 400px;
+  background-color: rgba(255, 230, 219, 0.8);
+  
+  
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 19px ;
+  z-index: 1000;
+
+}
+.search-box{
+  height: 60px;
+  padding: 10px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 1002;
+  
+  
+
+}
+.search-box input{
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding: 2px auto;
+  
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(187, 176, 176);
+
+  border-radius: 6px;
+  border: none;
+  
+  
+
+}
+#h1::placeholder{
+
+}
+.info{
+  margin-top: 190px;
+  display: flex;
+  flex-direction: column;
+}
+.location {
+  margin-bottom: 40px;
+  font-size: 1.9rem;
+  text-transform: capitalize;
+ 
+}
+.fa-solid, .fas{
+  margin-right: 23px;
+}
+.temp{
+  margin-bottom: 50px;
+  color: black;
+}
+.tmax_min{
+  margin-top: 20px;
+  font-weight: bolder ;
+  color: rgb(26, 43, 9);
+}
+#ndf{
+  margin-top: 180px;
+  font-size: 2.1rem;
+  font-weight: bolder;
+}
+@media only screen and (max-width: 400px){
+  .app{
+    margin-top: 1px;
+    height: 710px;
+  }
+
+}
+
